@@ -1,0 +1,73 @@
+.funcoes_usuario{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 4em;
+}
+
+.foto_usuario{
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 1em auto;
+}
+
+.funcoes_sistema{
+  display: flex;
+  flex-direction: column;
+  padding: 0 3em;
+}
+
+.funcoes_servico{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 2em;
+}
+
+.perfil_usuario{
+  display: flex;
+  flex-direction: column; 
+}
+
+.cabecalho{
+  max-width: 20vw;
+  height: 100vh;
+  background-color: #2f57c6;
+  color: aliceblue;
+  line-height: 2em;
+  padding: 0.5em;
+  text-align: center;
+}
+
+button{
+  max-width: fit-content;
+  padding: 0.5em;
+  font-size: 12pt;
+  border-radius: 0.5em;
+  cursor: pointer;
+  border: none;
+  margin: 0.5em 0;
+}
+
+hr{
+  width: 30%;
+  margin: 1em auto;
+}
+
+button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icone{
+  width: 32px;
+  height: 32px;
+}
+
+.icone_menor{
+  width: 24px;
+  height: 24px;
+  margin: 0 0.5em 0 0;
+}

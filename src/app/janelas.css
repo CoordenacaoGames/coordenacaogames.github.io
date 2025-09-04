@@ -1,0 +1,20 @@
+.janela-cabecalho{
+    font-size: 12pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+    color: #550000;
+}
+
+.popup{
+    width: 300px;
+    height: fit-content;
+    line-height: 1.5em;
+    background-color: #ececec;
+    padding: 1em;
+    border-radius: 10px;
+    font-size: 12pt;
+    margin: 5em auto;
+}

@@ -1,0 +1,10 @@
+.carrossel{
+    width: 100vw;
+    background-color: #101636;
+    height: 400px;
+}
+
+.carrossel-img{
+    width: 100%;
+    display: block;
+}
