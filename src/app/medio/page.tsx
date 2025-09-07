@@ -1,7 +1,8 @@
 import { Cabecalho } from "../cabecalho";
 import { BannerFormacao } from "../componentes/banner";
 import { BotoesUteis } from "../componentes/botoes-uteis";
-import { Menu } from "../menu";
+import { Menu } from "../menu-principal";
+import MenuCursos from "../menu-cursos";
 
 export default function PaginaEnsinoMedio(){
 

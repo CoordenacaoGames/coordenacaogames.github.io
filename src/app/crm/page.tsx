@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 "use client"
 import {useEffect, useState, FormEvent} from "react"
-import {supabase} from "@/crm/lib/supabase"
+import {supabase} from ".././crm/lib/supabase"
 import toast, {Toaster} from "react-hot-toast";
 import Swal from "sweetalert2";
 import "sweetalert2/dist/sweetalert2.min.css"

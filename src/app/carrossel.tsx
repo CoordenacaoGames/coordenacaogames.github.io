@@ -1,3 +1,4 @@
+import Image from "next/image";
 import "./carrossel.css";
 
 export function Carrossel(){
@@ -20,9 +21,9 @@ export function Carrossel(){
 
     return(
         <>
-        <button onClick='CItemDeCarrossel()'></button>
-        <section className="carrossel" id="carrossel">
-        </section>
+            <button></button>
+            <section className="carrossel" id="carrossel">
+            </section>
         </>
     );
 }
